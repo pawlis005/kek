@@ -57,7 +57,7 @@ void Game::handleInput()
 }
 void Game::update()
 {
-	int elapsedTime = clock.getElapsedTime().asMilliseconds();
+	int elapsedTime = clock.getElapsedTime().asMilliseconds(); //
 	if ( elapsedTime>= 200)
 	{
 		snake.snakeMove();
